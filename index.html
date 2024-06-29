@@ -11,7 +11,7 @@
 <body>
 
     <!-- Awal Header -->
-    <header class="bg-slate-100 absolute top-0 left-0 w-full flex items-center z-10">
+    <header class="absolute top-0 left-0 w-full flex items-center z-10 navbar-fixed">
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
@@ -25,31 +25,31 @@
                     </button>
 
                     <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-                        <ul class="block lg:flex">
+                        class="hidden absolute py-5 bg-slate-800 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex text-slate-300">
                             <li class="group">
                                 <a href="#home"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                                    class="text-base py-2 mx-7 flex group-hover:text-primary">Home</a>
                             </li>
                             <li class="group">
                                 <a href="#about"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                                    class="text-base py-2 mx-7 flex group-hover:text-primary">About me</a>
                             </li>
                             <li class="group">
                                 <a href="#experience"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Pengalaman</a>
+                                    class="text-base py-2 mx-7 flex group-hover:text-primary">Experience</a>
                             </li>
                             <li class="group">
                                 <a href="#portfolio"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                                    class="text-base py-2 mx-7 flex group-hover:text-primary">Portfolio</a>
                             </li>
                             <li class="group">
                                 <a href="#blog"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                                    class="text-base py-2 mx-7 flex group-hover:text-primary">Blog</a>
                             </li>
                             <li class="group">
                                 <a href="#contact"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                                    class="text-base py-2 mx-7 flex group-hover:text-primary">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -60,25 +60,25 @@
     <!-- Akhir Header -->
 
     <!-- Awal Hero Section -->
-    <section id="home" class="pt-36">
-        <div class="container bg-b">
+    <section id="home" class="pt-36 bg-slate-100">
+        <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
                     <h1 class="text-base font-semibold text-primary lg:text-xl">Horas👋,
-                        Saya <span class="block font-bold text-4xl mt-1 text-dark lg:text-5xl mb-2">Walker Valentinus
+                        I am <span class="block font-bold text-4xl mt-1 text-dark lg:text-5xl mb-2">Walker Valentinus
                             Simanjuntak</span></h1>
                     <h2 class="font-semibold text-secondary mb-5 lg:text-2xl:"> Undergraduate Information System Student | Data Analyst</h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed text-justify">Sebagai mahasiswa Sarjana yang masih menempuh pendidikan di Institut Teknologi Del, saya sangat tertarik dan terbuka untuk mempelajari hal-hal baru, terutama di bidang pengolahan dan visualisasi data (Data Analyst & Data Science). Saya memiliki kemampuan bekerja dalam tim yang baik dan bisa bekerja di bawah tekanan. Saya terbuka untuk belajar dari orang-orang yang ahli di bidangnya untuk mendapatkan ilmu yang mereka punya. Dengan latar belakang tersebut, kemampuan saya dapat berkembang dan bertumbuh menjadi pribadi yang lebih baik.
+                    <p class="font-medium text-secondary mb-10 leading-relaxed text-justify">As an undergraduate student currently pursuing my education at Institut Teknologi Del, I am very interested and open to learning new things, especially in the fields of data processing and visualization (Data Analyst & Data Science). I possess strong teamwork skills and can work well under pressure. I am open to learning from experts in their fields to gain the knowledge they have. With this background, my abilities can develop and grow, helping me become a better individual.
                     </p>
 
-                    <a href="https://wa.link/ody6p5" class="text-base font-semibold text-white 
+                    <a href="https://wa.link/ody6p5" target="_blank" class="text-base font-semibold text-white 
                     bg-primary py-3 px-8 rounded-full hover:shadow-lg
-                    hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+                    hover:opacity-80 transition duration-300 ease-in-out">Contact Me</a>
                 </div>
-                <div class="w-full self-end px-4 lg:w-1/2 bg-b">
+                <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:mt-9 lg:right-0">
-                        <img src="src/img/walker.png" alt="Walker Simanjuntak" class="max-w-full mx-auto" />
-                        <span class="absolute -bottom-3 -z-10 left-1/2 -translate-x-1/2
+                        <img src="src/img/walker1.png" alt="Walker Simanjuntak" class="max-w-full mx-auto z-20 relative" />
+                        <span class="absolute -bottom-3 left-1/2 -translate-x-1/2
                         md:scale-120">
                             <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#F97316" d="M35.4,-57.6C47.3,-47.5,59.3,-40,66.6,-28.9C74,-17.9,76.7,
@@ -97,20 +97,20 @@
     <!-- Akhir Hero Section -->
 
     <!-- Awal About Section -->
-    <section id="about" class="pt-36 pb-32 bg-slate-100">
+    <section id="about" class="pt-36 pb-32 bg-slate-700">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg
-                    mb-3">Tentang Saya</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-5 
-                    max-w-md lg:text-4xl">Perjalanan Akademik Walker Simanjuntak</h2>
-                    <p class="font-medium text-base text-secondary text-justify
-                    max-w-xl">Saya menempuh pendidikan Sekolah Dasar di SDN 173522 Balige, pendidikan menengah pertama di SMP Swasta Budi Dharma Balige, pendidikan mengengah atas di SMAN 2 Balige, dan sekarang sedang menempuh perkuliahan di Institut Teknologi Del</p>
+                    mb-3">About me</h4>
+                    <h2 class="font-bold text-slate-200 text-3xl mb-5 
+                    max-w-md lg:text-4xl">Academic Journey</h2>
+                    <p class="font-medium text-base text-slate-300 text-justify lg:text-lg
+                    max-w-xl">I completed my primary education at SDN 173522 Balige, my middle school education at SMP Swasta Budi Dharma Balige, and my high school education at SMAN 2 Balige. Currently, I am pursuing my bachelors at Institut Teknologi Del.</p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
-                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
-                    <p class="font-medium text-base text-secondary text-justify mb-6 lg:text-lg">Hubungi saya melalui beberapa media sosial di bawah ini jika teman-teman sekalian tertarik untuk bekerja sama atau berkolaborasi mengerjakan sesuatu. So make sure that you guys chek it!</p>
+                    <h3 class="font-semibold text-slate-200 text-2xl mb-4 lg:text-3xl lg:pt-10">Reach me Out</h3>
+                    <p class="font-medium text-base text-slate-300 text-justify mb-6 lg:text-lg">Contact me through my social media if you guys interested for any collaboration or project. So make sure that you guys check it!</p>
                     <div class="flex items-center">
                         <!-- Linkedin -->
                         <a href="https://www.linkedin.com/in/walkersimanjuntak/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border
@@ -171,61 +171,61 @@
     <!-- Akhir About Section -->
 
     <!-- Awal Experience Section -->
-    <section id="experience" class="pt-36 pb-32">
+    <section id="experience" class="pt-36 pb-32 bg-slate-100">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-16 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg
-                    mb-3">Pengalaman</h4>
+                    mb-3">Working</h4>
                     <h2 class="font-bold text-dark text-3xl mb-5 
-                    max-w-md lg:text-4xl">Kerja</h2>
+                    max-w-md lg:text-4xl">Experience</h2>
                     <p class="font-medium text-base text-secondary
-                    max-w-xl">Beberapa pekerjaan yang pernah saya lakukan dalam masa perkuliahan. Pekerjaan-pekerjaan ini saya ambil untuk meningkatkan kualitas saya sebelum nantinya akan terjun ke dunia kerja sesungguhnya</p>
+                    max-w-xl">Some of the jobs I have undertaken during my time in university. I took on these jobs to enhance my skills and prepare myself for entering the professional world in the future.</p>
                 </div>
                 <div class="w-full px-4 mb-1 lg:w-1/2 flex items-center">
                     <div>
                         <ul>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#F97316" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Juni 2024 - Sekarang</p>
+                                    <p class="font-bold" >June 2024 - Present</p>
                                     <p class="font-semibold mt-2">Business Analyst</p>
                                     <p>PT. RPN</p>
                                 </div>
                             </li>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#334155" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Juli 2023 - Desember 2023</p>
-                                    <p class="font-semibold mt-2">Asisten Dosen Algoritma dan Struktur Data</p>
+                                    <p class="font-bold" >July 2023 - December 2023</p>
+                                    <p class="font-semibold mt-2">Assistant Lecturer of Algorithm and Data Structure</p>
                                     <p>IT DEL</p>
                                 </div>
                             </li>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#334155" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Maret 2023 - Mei 2023</p>
-                                    <p class="font-semibold mt-2">Kepala Divisi Acara</p>
+                                    <p class="font-bold" >March 2023 - May 2023</p>
+                                    <p class="font-semibold mt-2">Head of Event Division</p>
                                     <p>KPU IT DEL</p>
                                 </div>
                             </li>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#334155" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Agustus 2022 - Desember 2022</p>
-                                    <p class="font-semibold mt-2">Asisten Dosen Pemrograman Visual</p>
+                                    <p class="font-bold" >August 2022 - December 2022</p>
+                                    <p class="font-semibold mt-2">Assistant Lecturer of Visual Programming</p>
                                     <p>IT DEL</p>
                                 </div>
                             </li>
-                            <hr class="w-7">
+                            <hr class="mt-6 w-7 custom-hr">
                         </ul>
                     </div>
                 </div>
@@ -236,66 +236,67 @@
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-16 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg
-                    mb-3">Pengalaman</h4>
+                    mb-3">Organization</h4>
                     <h2 class="font-bold text-dark text-3xl mb-5 
-                    max-w-md lg:text-4xl">Organisasi</h2>
+                    max-w-md lg:text-4xl">Experience</h2>
                     <p class="font-medium text-base text-secondary
-                    max-w-xl">Organisasi yang saya ikuti selama menempuh pendidikan di Institut Teknologi Del untuk mengembangkan keterampilan dalam bidang kepemimpinan dan kerjasama tim</p>
+                    max-w-xl">The organizations I have joined during my studies at Institut Teknologi Del to develop skills in leadership and teamwork.</p>
                 </div>
                 <div class="w-full px-4 mb-1 lg:w-1/2 flex items-center">
                     <div>
                         <ul>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#F97316" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Agustus 2023 - Sekarang</p>
-                                    <p class="font-semibold mt-2">Ketua</p>
+                                    <p class="font-bold" >August 2023 - Present</p>
+                                    <p class="font-semibold mt-2">Chairman</p>
                                     <p>Himpunan Mahasiswa Sistem Informasi</p>
                                 </div>
                             </li>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#334155" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Maret 2024 - Sekarang</p>
-                                    <p class="font-semibold mt-2">Anggota</p>
+                                    <p class="font-bold" >March 2024 - Present</p>
+                                    <p class="font-semibold mt-2">Member</p>
                                     <p>DDSC (Del Data Science Club)</p>
                                 </div>
                             </li>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#334155" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Juli 2023 - Maret 2024</p>
-                                    <p class="font-semibold -2">Wakil Ketua</p>
+                                    <p class="font-bold" >July 2023 - March 2024</p>
+                                    <p class="font-semibold mt-2">Vice Chairman</p>
                                     <p>DEC (Del English Club)</p>
                                 </div>
                             </li>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#334155" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Agustus 2022 - Juni 2023</p>
-                                    <p class="font-semibold -2">Abang Asuh</p>
-                                    <p>Asrama Pniel IT DEL</p>
+                                    <p class="font-bold" >August 2022 - June 2023</p>
+                                    <p class="font-semibold mt-2">Student Leadership Program</p>
+                                    <p>Pniel Dorm IT DEL</p>
                                 </div>
                             </li>
                             <li class="relative flex gap-6 pb-5">
-                                <div class="mb-2 before:absolute before:left-[11px] before:h-full before:w-[1px] before:bg-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#e6e7e8" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
+                                <div class="mb-2 after:absolute after:left-[12px] after:h-full after:w-[1px] after:bg-slate-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 47.5 47.5" id="circle"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#334155" d="M37 19c0-9.941-8.059-18-18-18S1 9.059 1 19s8.059 18 18 18 18-8.059 18-18"></path></g></svg>
                                 </div>
                                 <div class="text-sm text-slate-700">
-                                    <p class="font-bold" >Agustus 2021 - Juli 2023</p>
-                                    <p class="font-semibold t-2">Anggota</p>
+                                    <p class="font-bold" >August 2021 - July 2023</p>
+                                    <p class="font-semibold mt-2">Member</p>
                                     <p>Majelis Permusyawaratan Himpunan HIMSI</p>
                                 </div>
                             </li>
-                            <hr class="w-7">
+                            <hr class="mt-6 w-7 custom-hr">
                         </ul>
                     </div>
                 </div>
@@ -305,13 +306,13 @@
     <!-- Akhir Experience Section -->
 
     <!-- Awal Portfolio Section -->
-    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-700">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
-                    <p class="font-medium text-md text-secondary">Berikut adalah beberapa proyek yang sudah saya kerjakan sebelumnya</p>
+                    <h2 class="font-bold text-slate-200 text-3xl mb-4">My Latest Project</h2>
+                    <p class="font-medium text-md text-slate-300">Here are some of the projects I have completed previously</p>
                 </div>
             </div>
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
@@ -319,37 +320,37 @@
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="src/img/portfolio/1.png" alt="Project 1" class="w-full">
                     </div>
-                    <a href="https://github.com/walkervalentinuss/proyek-dwbi-g2-2324" target="_blank" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
-                        <h3 class="font-semibold text-xl text-dark mt-5">Data Warehouse & BI</h3>
+                    <a href="https://github.com/walkervalentinuss/proyek-dwbi-g2-2324" target="_blank" class="block mb-3 font-semibold text-xl text-slate-200 hover:text-primary truncate">
+                        <h3 class="font-semibold text-xl mt-5">Data Warehouse & BI</h3>
                     </a>
-                    <p class="font-medium text-base text-secondary"> Data Warehouse-based Dashboard for Kickstarter Crowdfunding 2022 adalah proyek mata kuliah Data Warehouse and Business Intelligence (DWBI) yang menganalisis data Kickstarter pada tahun 2022 mulai dari bulan Januari sampai Desember. </p>
+                    <p class="font-medium text-base text-slate-300"> The "Data Warehouse-based Dashboard for Kickstarter Crowdfunding 2022" is a project for the Data Warehouse and Business Intelligence (DWBI) course that analyzes Kickstarter data from January to December 2022. </p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="src/img/portfolio/2.png" alt="Project 2" class="w-full">
+                        <img src="src/img/portfolio/2.png" alt="Project 1" class="w-full">
                     </div>
-                    <a href="https://github.com/walkervalentinuss/malware-classification-using-random-forest-method" target="_blank" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
-                        <h3 class="font-semibold text-xl text-dark mt-5">Malware Classification</h3>
+                    <a href="https://github.com/walkervalentinuss/proyek-dwbi-g2-2324" target="_blank" class="block mb-3 font-semibold text-xl text-slate-200 hover:text-primary truncate">
+                        <h3 class="font-semibold text-xl mt-5">Data Visualisation Northwind</h3>
                     </a>
-                    <p class="font-medium text-base text-secondary"> Pada Proyek ini saya membuat sebuah model Machine Learning. Kelompok kami menerapkan paradigma Supervised Learning dengan tipe Classification yang menggunakan Random Forest Methodology</p>
+                    <p class="font-medium text-base text-slate-300">A dashboard to visualize the performance of Northwind Superstore as part of an exercise to analyze data. </p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="src/img/portfolio/3.png" alt="Project 3" class="w-full">
+                        <img src="src/img/portfolio/3.png" alt="Project 1" class="w-full">
                     </div>
-                    <a href="https://public.tableau.com/app/profile/walker.simanjuntak/viz/FinalPresentationMSIB/Story1" target="_blank" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
-                        <h3 class="font-semibold text-xl text-dark mt-5">Proyek Studi Independen</h3>
+                    <a href="https://github.com/walkervalentinuss/proyek-dwbi-g2-2324" target="_blank" class="block mb-3 font-semibold text-xl text-slate-200 hover:text-primary truncate">
+                        <h3 class="font-semibold text-xl mt-5">Air Pollution Visualisation</h3>
                     </a>
-                    <p class="font-medium text-base text-secondary"> Proyek Akhir Studi Independen Kampus Merdeka X Data Academy, dimana kammi membuat sebuah dashboard untuk melihat penyebab polusi udara di dunia pada tahun 2022</p>
+                    <p class="font-medium text-base text-slate-300"> Final Project for Campus Merdeka X Data Academy, where we created a dashboard to analyze the causes of air pollution worldwide in 2022. </p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="src/img/portfolio/4.png" alt="Project 4" class="w-full">
+                        <img src="src/img/portfolio/4.png" alt="Project 1" class="w-full">
                     </div>
-                    <a href="https://public.tableau.com/app/profile/walker.simanjuntak/viz/NorthwindSalesDashboard_17116389802960/Dashboard1" target="_blank" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
-                        <h3 class="font-semibold text-xl text-dark mt-5">Northwind Sales Dashboard</h3>
+                    <a href="https://github.com/walkervalentinuss/proyek-dwbi-g2-2324" target="_blank" class="block mb-3 font-semibold text-xl text-slate-200 hover:text-primary truncate">
+                        <h3 class="font-semibold text-xl mt-5">Malware Classification</h3>
                     </a>
-                    <p class="font-medium text-base text-secondary"> Dashboard untuk melihat performa dari Northwind superstore sebagai salah satu latihan untuk menganalisa data</p>
+                    <p class="font-medium text-base text-slate-300"> In this project, I developed a Machine Learning model. Our group applied the Supervised Learning paradigm using the Random Forest methodology for classification. </p>
                 </div>
             </div>
         </div>
@@ -362,8 +363,8 @@
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4">Tulisan Terkini</h2>
-                    <p class="font-medium text-md text-secondary">Beberapa blog tulisan yang saya kerjakan di saat luang, bisa tentang akademik ataupun non akademik</p>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Latest Writing</h2>
+                    <p class="font-medium text-md text-secondary">Some blog posts I've worked on in my spare time, covering both academic and non-academic topics.</p>
                 </div>
             </div>
 
@@ -375,10 +376,9 @@
                             <a href="https://www.linkedin.com/pulse/superstore-dataset-visualisation-walker-v-simanjuntak-uxhhc/?trackingId=al094Mc5QpSNcmGw6%2B0XPg%3D%3D" target="_blank" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
                                 <h3>Davizz 1</h3>
                             </a>
-                            <p class="font-medium text-base text-secondary mb-4">Artikel analisa data, menggunakan Tableau untuk visualisasinya</p>
+                            <p class="font-medium text-base text-secondary mb-4">An article analyzing data using Tableau for visualization.</p>
                             <a href="https://www.linkedin.com/pulse/superstore-dataset-visualisation-walker-v-simanjuntak-uxhhc/?trackingId=al094Mc5QpSNcmGw6%2B0XPg%3D%3D" target="_blank"
-                                class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca
-                                Selengkapnya</a>
+                                class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -388,26 +388,26 @@
     <!-- Akhir Blog Section -->
 
     <!-- Awal Footer  -->
-    <footer id="contact" class="bg-dark pt-24 pb-12">
+    <footer id="contact" class="bg-slate-800 pt-24 pb-12">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/2">
                     <h2 class="font-bold text-4xl text-white mb-5">Walkervalentinuss</h2>
-                    <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
-                    <p>walkervalentinuss@gmail.com</p>
-                    <p>Jl. Serma Muda Simanjuntak, Balige, Sumatera Utara</p>
+                    <h3 class="font-bold text-slate-200 text-2xl mb-2">contact me</h3>
+                    <p class="text-slate-300">walkervalentinuss@gmail.com</p>
+                    <p class="text-slate-300">Jl. Serma Muda Simanjuntak, Balige, Sumatera Utara</p>
                 </div>
                 <div class="w-full px-4 mb-12 md:w-1/3">
-                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <h3 class="font-semibold text-xl text-slate-200 mb-5">Tautan</h3>
                     <ul class="text-slate-300">
                         <li>
-                            <a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a>
+                            <a href="#home" class="inline-block text-base hover:text-primary mb-3">Home</a>
                         </li>
                         <li>
-                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">About me</a>
                         </li>
                         <li>
-                            <a href="#experience" class="inline-block text-base hover:text-primary mb-3">Pengalaman</a>
+                            <a href="#experience" class="inline-block text-base hover:text-primary mb-3">Experience</a>
                         </li>
                         <li>
                             <a href="#portfolio" class="inline-block text-base hover:text-primary mb-3">Portfolio</a>
@@ -419,7 +419,7 @@
                 </div>
             </div>
 
-            <div class="w-full pt-10 border-t border-slate-700">
+            <div class="w-full pt-10 border-t border-slate-200">
                 <div class="flex items-center justify-center mb-5">
                     <!-- Linkedin -->
                     <a href="https://www.linkedin.com/in/walkersimanjuntak/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border
@@ -473,8 +473,8 @@
                     </a>
 
                 </div>
-                <p class="font-medium text-sm text-slate-500 text-center">
-                    © walkervalentinuss dibuat menggunakan Tailwind CSS
+                <p class="font-medium text-sm text-slate-300 text-center">
+                    © walkervalentinuss 2024
                 </p>
             </div>
         </div>

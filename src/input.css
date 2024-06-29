@@ -7,13 +7,11 @@ body {
 }
 
 .navbar-fixed {
-    @apply fixed z-[9999] bg-slate-200 bg-opacity-60;
-    backdrop-filter: blur(5px);
-    box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.2);
+    @apply fixed z-[9999] bg-slate-800;
 }
 
 .hamburger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-dark;
+    @apply w-[30px] h-[2px] my-2 block bg-white;
 }
 
 .hamburger-active > span:nth-child(1) {
@@ -26,6 +24,12 @@ body {
 
 .hamburger-active > span:nth-child(3) {
     @apply -rotate-45;
+}
+
+.custom-hr {
+    background-color: #334155;
+    height: 2px;
+    border: none; 
 }
 
 .shadow-active {
